@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form Example</title>
+</head>
+<body>
+    <form name="form3" action="form3server" method="get">
+        <table align="center" bgcolor="silver" cell padding="3px" cell spacing="5px">
+            <caption><h1><u>Registration form</u></h1></caption>
+            <tr>
+                <td>
+                    <label for="FirstNAme"> First Name  </label>
+                </td>
+                <td>
+                    <input type="text" id="FirstNAme" name="First Name  " value="" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                     <label for="LastNAme"> Last Name  </label>
+                </td>
+                <td>
+                    <input type="text" id="LastNAme" name="Last Name" value="" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="NickNAme"> Nick Name  </label>
+                </td>
+                <td>
+                    <input type="text" id="NickNAme" name="Nick Name  " value="" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                     <label for="Email"> e-mail  </label>
+                </td>
+                <td>
+                     <input type="email" id="Email" name="e-mail  " value="" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                     <label for="PAssWord"> Password </label>
+                </td>
+                <td>
+                    <input type="password" id="PAssWord" name="Password " value="" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Dob">Date of Birth</label>
+                </td>
+                <td>
+                    <input type="date" id="Dob" name="Date of Birth" value="" style="width: 200">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for=Gender>Gender</label>
+                </td>
+                <td>
+                    <input type="radio" id="male" name="Gender" value="male" required>
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="Female" name="Gender" value="female" >
+                    <label for="Female">Female</label>
+                    <input type="radio" id="Others" name="Gender" value="Others" >
+                    <label for="Others">Others</label>
+           
+                </td>
+            </tr>
+             <tr>
+                <td> <label for="Mobile"> Mobile Number </label></td>
+                <td>
+                    <input type="tel" id="Mobile" value="" style="width: 100">
+                </td>
+            </tr>
+            <tr>
+                <td>Adress</td>
+                <td>
+                    <textarea cols="20" rows="5">
+
+                </textarea>
+                </td>
+
+            </tr>
+            <tr>
+                <td> </td>
+                <td>
+                    <input type="submit">
+                    
+                    <input type="reset">
+
+                </td>
+
+            </tr>
+
+            
+        </table>
+    </form>
+</body>
